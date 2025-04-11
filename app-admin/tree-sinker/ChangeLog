@@ -1,0 +1,10 @@
+# ChangeLog for app-admin/tree-sinker
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*tree-sinker-0.1.01b (11 Apr 2025)
+
+  11 Apr 2025; Robert R. Russell <robert@rrbrussell.com>
+  +tree-sinker-0.1.01b.ebuild:
+  First ebuil of my local_portage_tree
+
