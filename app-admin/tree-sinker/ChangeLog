@@ -2,6 +2,18 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*tree-sinker-0.3 (17 May 2025)
+
+  17 May 2025; Robert R. Russell <robert@rrbrussell.com>
+  +tree-sinker-0.3.ebuild:
+  0.3.ebuild version bump
+
+*tree-sinker-0.2 (16 Apr 2025)
+
+  16 Apr 2025; Robert R. Russell <robert@rrbrussell.com>
+  +tree-sinker-0.2.ebuild:
+  0.2.ebuild version bump
+
 *tree-sinker-0.1.01e (16 Apr 2025)
 
   16 Apr 2025; Robert R. Russell <robert@rrbrussell.com>
