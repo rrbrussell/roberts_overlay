@@ -1,0 +1,14 @@
+BDEPEND=app-arch/rpm2targz
+DEFINED_PHASES=install unpack
+DESCRIPTION=Redhat configuration macros for RPM
+EAPI=8
+HOMEPAGE=https://src.fedoraproject.org/rpms/redhat-rpm-config
+INHERIT=rpm
+KEYWORDS=~aarch64 ~amd64
+LICENSE=GPL-3+-with-autoconf-exception
+RDEPEND=app-arch/rpm dev-util/rpmdevtools
+RESTRICT=test
+SLOT=0
+SRC_URI=https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/43/Everything/source/tree/Packages/r/redhat-rpm-config-343-11.fc43.src.rpm
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832
+_md5_=6b5f92868a6b1f7fe8113d6034a678e5
