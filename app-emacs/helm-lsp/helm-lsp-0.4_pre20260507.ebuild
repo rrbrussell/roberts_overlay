@@ -14,8 +14,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 
 SITEFILE="50${PN}-gentoo.el"
-#ELISP_TEXINFO="doc/ledger-mode.texi"
-#BYTECOMPFLAGS+=" -l ledger-regex.el"
 
-#RDEPEND="!<app-office/ledger-3.1.2[emacs(-)]"
-#BDEPEND="sys-apps/texinfo"
+RDEPEND=">=app-editors/emacs-29.1:* >=app-emacs/dash-2.14.1 >=app-emacs/lsp-mode-5.0 >=app-emacs/helm-2.0"
+
+src_unpack() {
+	unpack ${A}
+	mv ${PN}-${GIT_COMMIT} ${P}
+}
