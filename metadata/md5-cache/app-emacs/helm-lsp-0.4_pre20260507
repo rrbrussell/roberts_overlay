@@ -1,0 +1,13 @@
+BDEPEND=>=app-editors/emacs-26.3:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DESCRIPTION=lsp-mode for helm
+EAPI=8
+HOMEPAGE=https://github.com/emacs-lsn/helm-lsp
+INHERIT=elisp
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=>=app-editors/emacs-26.3:*
+SLOT=0
+SRC_URI=https://github.com/emacs-lsp/helm-lsp/archive/056bb16b5f69137218613b7558b477f6b21f22be.zip -> helm-lsp-0.4_pre20260507.zip
+_eclasses_=elisp	a37bfc35b86403c770beebbd71661c30	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf
+_md5_=2a7836525738fef3ab6bcd1f222af4ef
