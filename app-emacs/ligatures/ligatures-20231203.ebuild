@@ -21,5 +21,5 @@ DEPEND=">=app-editors/emacs-28.2-r20:*"
 
 src_unpack() {
 	unpack ${A}
-	mv ${PN}-${GIT_COMMIT} ${P}
+	mv ligature.el-${GIT_COMMIT} ${P}
 }
