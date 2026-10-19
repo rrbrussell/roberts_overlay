@@ -117,7 +117,6 @@ PDEPEND="
 
 PATCHES=(
 	"${FILESDIR}/${PN}-5.0-exclude-license.patch"
-	"${FILESDIR}/${PN}-5.6-no-werror.patch"
 	# This is only to prevent webkit2gtk-4 from being selected.
 	# https://bugs.gentoo.org/893676
 	"${FILESDIR}/${PN}-5.0-webkit2gtk-4.1.patch"
